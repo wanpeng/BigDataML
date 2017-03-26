@@ -14,6 +14,7 @@
 5. 簇数确定  elbow_method.py   
 6. 测定聚类质量  silhouette_coefficient.py   
 >> k-means : http://scikit-learn.org/stable/modules/clustering.html#k-means  
+>> Agglomerative : http://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering  
 >> matplotlib.markers: http://matplotlib.org/api/markers_api.html  
 >> matplotlib pyplot: http://matplotlib.org/api/pyplot_api.html  
 
