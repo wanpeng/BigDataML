@@ -30,4 +30,4 @@ for i in range(n_clusters):
 
 plt.title("hierarchical_clustering")
 plt.show()
-plt.savefig('hierarchical_clustering.png')
+plt.savefig('output/hierarchical_clustering.png')

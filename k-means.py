@@ -17,13 +17,15 @@ X = np.array(X)
 n_clusters = 5
 
 #现在我们把数据和对应的分类数放入聚类函数中进行聚类
+# http://scikit-learn.org/stable/modules/clustering.html#k-means
 cls = KMeans(n_clusters).fit(X)
 
 #X中每项所属分类的一个列表
 cls.labels_
 
 #画图
-# http://matplotlib.org/api/markers_api.html
+# markers : http://matplotlib.org/api/markers_api.html
+# scatter : http://matplotlib.org/api/pyplot_api.html
 markers = ['^', 'x', 'o', '*', '+']
 for i in range(n_clusters):
     members = cls.labels_ == i
