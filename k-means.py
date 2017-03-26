@@ -9,6 +9,7 @@ f = open('data.txt')
 for v in f:
     X.append([float(v.split(',')[2]), float(v.split(',')[3])])
 
+
 #转换成numpy array
 X = np.array(X)
 
@@ -22,6 +23,7 @@ cls = KMeans(n_clusters).fit(X)
 cls.labels_
 
 #画图
+# http://matplotlib.org/api/markers_api.html
 markers = ['^', 'x', 'o', '*', '+']
 for i in range(n_clusters):
     members = cls.labels_ == i
