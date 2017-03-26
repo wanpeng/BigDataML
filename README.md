@@ -22,7 +22,7 @@ elbow_method.py
 ##测定聚类质量
 silhouette_coefficient.py
 
-## matplotlib.markers¶
+matplotlib.markers
 http://matplotlib.org/api/markers_api.html
 
 #第十章分类
