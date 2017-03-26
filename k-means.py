@@ -29,4 +29,4 @@ for i in range(n_clusters):
 
 plt.title('')
 plt.show()
-plt.savefig('kmeans.png')
+plt.savefig('output/kmeans.png')
