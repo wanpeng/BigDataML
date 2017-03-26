@@ -27,7 +27,7 @@ def fun():
     plt.plot(x, y, 'o', label='Original data', markersize=10)
     plt.plot(x, a * x + b, 'r', label='Fitted line')
     plt.show()
-    plt.savefig('test.png')
+    plt.savefig('residual_analysis.png')
 
 
 if __name__ == '__main__':
