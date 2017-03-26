@@ -7,12 +7,15 @@
 
 ## 第九章聚类  
 1. k-means  k-means.py  
+
 2. 层次聚类  hierarchical_clustering.py  
 3. 密度聚类  dbscan.py   
 4. 聚类评估  clustering_tendency.py  
 5. 簇数确定  elbow_method.py   
 6. 测定聚类质量  silhouette_coefficient.py   
+>> k-means : http://scikit-learn.org/stable/modules/clustering.html#k-means
 >> matplotlib.markers: http://matplotlib.org/api/markers_api.html
+>> matplotlib pyplot: http://matplotlib.org/api/pyplot_api.html
 
 ## 第十章分类  
 1. 朴素贝叶斯和疾病预测  naive_bayes_gaussian.py  
