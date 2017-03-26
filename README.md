@@ -22,6 +22,9 @@ elbow_method.py
 ##测定聚类质量
 silhouette_coefficient.py
 
+## matplotlib.markers¶
+http://matplotlib.org/api/markers_api.html
+
 #第十章分类
 ##朴素贝叶斯和疾病预测
 naive_bayes_gaussian.py
