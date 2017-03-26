@@ -1,4 +1,4 @@
-# BigDataML
+# BigDataML <<白话大数据与机器学习>> 源码
 
 ## 第八章线性回归
 1. 最小二乘法  least_square.py  
